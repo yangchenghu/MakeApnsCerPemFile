@@ -14,10 +14,10 @@ anykey()
 
 echo "----开始制作证书----"
 echo "--------------------"
-echo "1.去developer制作证书"
-echo "2.打开keychain"
-echo "3.导出证书公钥到桌面，名字为'apns-cert.p12'(建议设置密码)"
-echo "4.导出证书私钥到桌面，名字为'apns-key.p12'(建议设置密码)"
+echo "1.去http://developer.apple.com制作推送证书"
+echo "2.下载证书，双击导入keychain"
+echo "3.在keychain中，导出推送证书公钥到桌面，名字为'apns-cert.p12'(建议设置密码)"
+echo "4.在keychain中，导出推送导出证书私钥到桌面，名字为'apns-key.p12'(建议设置密码)"
 echo "如果以上步骤都ok了，按任意键将开始制作证书........"
 
 CHAR=`anykey`
