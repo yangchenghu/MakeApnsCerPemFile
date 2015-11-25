@@ -1,4 +1,6 @@
 #!/bin/bash
+# date: 2015-11-18
+# author: 小虎
 
 anykey()
 {
