@@ -62,4 +62,8 @@ echo "----合并密钥----"
 
 cat apns-cert.pem $privateKeyName > apns-push-cert.pem
 
+rm -f apns-cert.pem
+rm -f $privateKeyName
+rm -f apns-key.pem
+
 echo "----完成----"
